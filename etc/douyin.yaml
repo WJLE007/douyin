@@ -1,0 +1,16 @@
+Name: douyin
+Host: 0.0.0.0
+Port: 8888
+MaxBytes: 104857600
+
+Log:
+  Mode: console
+  Encoding: plain
+
+MySQL:
+  DSN: "root:123456@(localhost:3306)/douyin?charset=utf8mb4&parseTime=True&loc=Local"
+  
+Redis:
+  Addr:
+  Password:
+  DB: 0
